@@ -124,12 +124,19 @@ body {
 .call-to-action {
 	display: flex;
 	flex-direction: column;
+	.container{
+		background-image: url('../images/homem-de-moto.png');
+		background-repeat: no-repeat;
+		background-position: -60px -60px -60px -620px;
+		height: 800px;
+	}
 	.right-col {
 		padding: 16px;
 		display: flex;
 		flex-direction: column;
 		font-size: 2rem;
 		margin-top: 10px;
+		background-color: #f8f9fa;
 
 		.highlight {
 			color: var(--primary-color);
